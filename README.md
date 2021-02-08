@@ -4,4 +4,4 @@ This repository is a Library of my College Course
 
 ## Classes
 
- * Database: 
+ * Database: https://github.com/rafalogan/my-college/blob/main/database/NOTES.md
