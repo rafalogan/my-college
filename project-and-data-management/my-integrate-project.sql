@@ -1,3 +1,7 @@
+DROP DATABASE IF EXISTS `college_db`;
+CREATE DATABASE `college_db` DEFAULT CHARACTER SET utf8mb4;
+USE `college_db`;
+
 DROP TABLE IF EXISTS `Alunos`;
 CREATE TABLE IF NOT EXISTS `Alunos` (
     `Nr_Rgm`        INT(8)      NOT NULL AUTO_INCREMENT,
@@ -37,4 +41,7 @@ CREATE TABLE IF NOT EXISTS `Matricila` (
     FOREIGN KEY `Cd_Classe_Fk` (`Cd_Classe`) REFERENCES `Classe` (`Cd_Classe`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
+
+--
+
 
